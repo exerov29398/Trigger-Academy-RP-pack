@@ -45,8 +45,9 @@ function jsonLine(o) {
  * @param names    { "<name on GitHub>": "<file name to use on players' PCs>" }
  * @param releases GitHub API releases array
  * @param now      Date, used for packVersion when the mod list changes
+ * @param changelogLines lines from changelog.txt, or null to keep the manifest's current changelog
  */
-function buildManifest(current, extra, names, releases, now) {
+function buildManifest(current, extra, names, releases, now, changelogLines = null) {
   const problems = [];
   const mods = [];
   let self = null;
@@ -96,6 +97,8 @@ function buildManifest(current, extra, names, releases, now) {
   const lines = ["{"];
   lines.push(`  "packName": ${JSON.stringify(head.packName)},`);
   lines.push(`  "packVersion": ${JSON.stringify(head.packVersion)},`);
+  const changelog = changelogLines ?? current.changelog ?? [];
+  if (changelog.length) lines.push(`  "changelog": ${JSON.stringify(changelog)},`);
   const selfEntry = self ? self.e : current.selfUpdate;
   if (selfEntry) lines.push(`  "selfUpdate": ${jsonLine(selfEntry)},`);
   lines.push(`  "removeUnlisted": ${JSON.stringify(current.removeUnlisted ?? true)},`);
@@ -148,8 +151,12 @@ async function main() {
   const current = read("manifest.json", {});
   const extra = read("extra-mods.json", []);
   const names = read("original-names.json", {});
+  // changelog.txt: one "what's new" line per row; empty rows and rows starting with # are ignored
+  const changelog = existsSync("changelog.txt")
+    ? readFileSync("changelog.txt", "utf8").split(/\r?\n/).map(s => s.trim()).filter(s => s && !s.startsWith("#"))
+    : null;
 
-  const r = buildManifest(current, extra, names, releases, new Date());
+  const r = buildManifest(current, extra, names, releases, new Date(), changelog);
   for (const p of r.problems) console.log(`::warning::${p}`);
   const old = existsSync("manifest.json") ? readFileSync("manifest.json", "utf8") : "";
   if (old === r.text) {
