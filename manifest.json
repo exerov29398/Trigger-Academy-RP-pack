@@ -1,7 +1,7 @@
 {
   "packName": "Trigger Academy RP",
   "packVersion": "1.2",
-  "selfUpdate": {"fileName": "movextsync-1.1.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/movextsync-1.1.1.jar", "sha256": "1399c98f653294e87a14beb7053763efccae68eb550982d22d3e1e616fd927ec", "size": 59395},
+  "selfUpdate": {"fileName": "movextsync-1.2.0.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/movextsync-1.2.0.jar", "sha256": "db815e0ddab7e0668b33cfc5da4face0bdd9b0e3a876f33ea96016057bdfdd24", "size": 69903},
   "removeUnlisted": false,
   "allowedExtras": [],
   "bannedModIds": [],
