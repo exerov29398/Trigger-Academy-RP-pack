@@ -1,0 +1,500 @@
+Fight for survival and struggle to the end.
+Check your ammo before you leave safety.
+Avoid traveling alone when you can.
+Know your way back before you go too far.
+Keep spare food with you. Hunger picks bad moments.
+Cover is your best friend in a firefight.
+Reload behind cover, not in the open.
+Count your shots. An empty mag never warns you twice.
+Never stand still after you fire.
+Move from cover to cover. Open ground gets people killed.
+Short bursts hit more than long ones.
+High ground gives you the view and the advantage.
+The first shot gives away your position. Make it count.
+Clear every corner before you step through.
+Always watch the door behind you.
+Check your six. Danger rarely comes from the front.
+Silence on the battlefield is never a good sign.
+A quiet approach beats a loud retreat.
+Listen first. Footsteps and gunfire tell you where to go.
+Scout the area before you commit to the fight.
+Attack from where the enemy is not looking.
+Never take the same route twice.
+Plan your exit before you enter.
+No plan survives first contact. Be ready to adapt.
+Retreat is not defeat. Live to fight again.
+If the fight turns bad, break contact and regroup.
+Pick your fights. Not every battle is worth winning.
+Stay low, stay quiet, stay alive.
+Stay alert. Tired soldiers make fatal mistakes.
+Darkness hides you and your enemy alike.
+Rest while you can. The next fight comes without warning.
+Eat before the mission, not during it.
+Keep your weapon ready, even when things look safe.
+A clean weapon is a reliable weapon.
+Carry what you need. Too much weight slows you down.
+Save your ammo for targets you can actually hit.
+Loot fast and move on. Lingering draws attention.
+Never leave a position without checking what you left.
+Mark your rally point before the shooting starts.
+Spread out. A tight group is an easy target.
+Cover your teammate while they reload.
+Call out contacts early. Seconds save lives.
+Trust your squad. Nobody wins a war alone.
+No one gets left behind.
+Your squad is only as strong as its communication.
+Follow the order first. Question it when you are safe.
+Discipline wins the fights that courage starts.
+Train hard, fight easy.
+Hold the line, whatever comes.
+Hold your fire until you have a clear shot.
+Identify your target before you pull the trigger.
+Watch for ambushes at bridges, roads, and narrow paths.
+Roads are fast, but they are watched.
+Bad weather covers your noise. Use it.
+Do not skyline yourself on a ridge.
+Take the long way if the short way looks too easy.
+Secure the area before you tend to the wounded.
+Treat your wounds early. Bleeding does not wait.
+Courage is doing the job while afraid.
+Every soldier has a limit. Learn yours before the enemy does.
+Today's mistake is tomorrow's lesson, if you survive it.
+Stay sharp, soldier. The war is not over yet.
+The mission comes first. Coming home comes right after.
+Stand your ground. Someone is counting on you.
+Victory belongs to those who endure.
+Never trust an empty street.
+Keep your head down and your eyes up.
+Slow is smooth. Smooth is fast.
+Check your corners, then check them again.
+Reload when you can, not when you must.
+Aim first, then fire.
+Breathe out before you squeeze the trigger.
+One good shot beats ten wild ones.
+Top off your mag during every lull.
+Keep a sidearm ready for when the rifle runs dry.
+Switching to your sidearm is faster than reloading.
+Tracers work both ways.
+If you can see them, they can see you.
+Concealment hides you. Cover stops bullets.
+Thin walls do not stop rifle rounds.
+A car door will not stop a bullet.
+Never peek from the same spot twice.
+Change position after every engagement.
+Smoke buys time. Use it to move.
+Throw smoke first, then cross the open.
+Watch the walls when you throw. Grenades bounce back.
+Explosions draw everyone nearby. Move right after.
+Watch the ground for tripwires.
+Fresh dirt on a road can mean a mine.
+If something looks out of place, it probably is.
+An abandoned post is rarely abandoned.
+Bodies in the open may be bait.
+Supplies left in plain sight may be a trap.
+Sentries get bored at dawn. Use that.
+Dawn and dusk are the most dangerous hours.
+Keep your light off unless you need it.
+A single light at night can be seen for miles.
+Noise carries further at night.
+Never light a fire where you cannot defend it.
+Smoke from a campfire gives away your camp.
+Tall grass hides you from eyes, not from bullets.
+Walk on soft ground when you need to stay quiet.
+Running makes noise. Walk when it matters.
+Crouch near the enemy. Every step counts.
+Sprint only when you know where you will stop.
+Know what is on the far side before you cross.
+Cross roads one at a time.
+Bridges are choke points. Cross fast or find another way.
+Treelines hide ambushes. Give them room.
+Buildings give you cover, but they can trap you too.
+Never enter a building with only one way out.
+Upper floors see far, but stairs make slow exits.
+Keep a second way out of every position.
+Hold doorways from the side, never from the center.
+Never stop in a doorway. Move through it.
+Rooms are cleared by teams, not heroes.
+Stack up before you breach.
+One opens the door, one covers the room.
+Assign sectors so every direction is watched.
+Keep your spacing on the march.
+The point man sets the pace. Do not outrun your squad.
+Keep your squad in sight at all times.
+Someone always stays on watch.
+Rotate the watch. Tired eyes miss things.
+Sleep in shifts when the area is not secure.
+Never sleep without a guard posted.
+Agree on a signal before you split up.
+Keep radio calls short and clear.
+Say what you see, where it is, and how many.
+Bad news early is better than bad news late.
+A wrong report can kill the whole squad.
+Know who is in command if your leader falls.
+Every soldier should know the objective.
+Know the mission before you move.
+Know the ground before the fight.
+A good map is worth more than a full mag.
+Memorize the landmarks around your position.
+Learn to find your direction by the sun and the stars.
+Lost? Stop, listen, and get your bearings.
+Never guess when you can scout.
+Time spent on recon is never wasted.
+Watch the enemy's routine, then break it.
+Enemies repeat patterns. Make sure you do not.
+Patience wins more fights than speed.
+Wait for the right moment. It will come.
+Do not chase a retreating enemy blindly.
+A fleeing enemy may be leading you into a trap.
+Flank when you can. Never charge a prepared position.
+Suppress first, then maneuver.
+One squad fires while the other moves.
+Fire and movement wins firefights.
+Hit hard, hit fast, then disappear.
+Never fight on the enemy's terms.
+Surprise is worth more than numbers.
+Confidence keeps you moving. Arrogance gets you killed.
+Panic kills faster than bullets.
+Stay calm. Clear heads make good shots.
+Fear is normal. Freezing is not.
+Control your breathing when the shooting starts.
+Drink before you are thirsty.
+Water first, food second, comfort last.
+Full stomachs make steady hands.
+Take care of your feet. They are your way home.
+Keep a bandage where you can reach it.
+Never go out without something to stop the bleeding.
+Drag the wounded to cover before you treat them.
+Check your teammates for wounds after every fight.
+Count heads after every fight.
+Share your ammo after a firefight. Your squad needs it too.
+Inspect your gear before every patrol.
+Test your gear before you need it.
+Secure loose gear. Rattling gets you heard.
+Two is one and one is none. Carry a spare.
+Take only what you can carry at a run.
+Leave nothing the enemy can use.
+Cover your tracks when you leave.
+Footprints tell a story. Do not leave one.
+Never camp in the same place twice.
+Dig in when you stop. Even a shallow trench helps.
+Sandbags are cheap. Soldiers are not.
+Fortify first, rest later.
+Set your defense before night falls.
+Know your field of fire before contact.
+Hold your position until you are told otherwise.
+In the fight, you fall back on your training.
+Sweat in training saves blood in battle.
+Practice until you can reload with your eyes closed.
+Learn from every fight you walk away from.
+Respect your enemy. They are training too.
+Never underestimate a quiet enemy.
+A quiet radio is not always good news.
+Enemy fire is always accurate when you stand in the open.
+If you are out of ammo, you are out of options.
+The easy way in is usually the one they are watching.
+Never assume the area is clear. Confirm it.
+Stay out of the light when you watch the dark.
+Look for what moves, then for what should not be there.
+The war is long. Pace yourself.
+Honor the fallen by finishing the mission.
+Remember why you fight.
+Keep fighting. Someone is waiting for you to come home.
+Snipers wait for the one who stops to look.
+Glare from a scope can cost a sniper their life.
+Never stay in a sniper's lane to help the wounded.
+If one shot came from far away, get out of the open.
+A sniper rarely fires twice from the same place.
+Smoke blinds a sniper better than return fire.
+Use shadows. A sniper looks for shapes and movement.
+Break up your outline before you take a long watch.
+Shape, shine, shadow, and movement give you away.
+Cover anything on your kit that can reflect light.
+Patience is a sniper's best weapon.
+Mark the range to landmarks before the enemy arrives.
+Wind moves a long shot more than you think.
+Aim low when firing downhill.
+Know the range before you take the shot.
+Rest your weapon on something solid when you can.
+Squeeze the trigger. Never jerk it.
+Lead a moving target. Aim where they will be.
+Pick one target and stay on it until it is down.
+Fire aimed shots, not hope.
+Spraying ammo only tells them where you are.
+A hot barrel loses accuracy. Mind your rate of fire.
+Clear a jam fast, or switch weapons faster.
+Learn to clear a stoppage without looking.
+A jammed rifle is a club. Have a plan.
+Keep your magazines clean and your rounds dry.
+Mud in the barrel can kill you. Check it.
+Oil your weapon before the weather turns.
+Clean your weapon before you clean yourself.
+Zero your rifle before you trust it.
+Know your weapon as well as you know your own hands.
+Mixed ammo slows you down. Sort it when you can.
+Keep your reloads in the same place every time.
+Tape your spare mags so they do not rattle.
+Carry more ammo than you think you will need.
+Running dry in a firefight is a choice made earlier.
+Heavy guns win fights, but they need feeding.
+Keep the machine gun firing. It holds the whole line.
+Protect your machine gunner. The enemy will aim there first.
+Change barrels before the gun fails, not after.
+Machine guns belong where they can fire along the line.
+Interlock your fields of fire with the next position.
+Leave no dead ground in front of your line.
+Dead ground hides attackers. Know where yours is.
+Range cards are written before the fight, not during it.
+Pre-plan your fallback positions.
+A fallback route only works if everyone knows it.
+Fall back in turns, never all at once.
+One team covers while the other withdraws.
+Do not break contact with an enemy still watching your route.
+Break contact, change direction, then stop and listen.
+When ambushed, fire back hard and get off the kill zone.
+Stopping inside an ambush is the worst thing you can do.
+Near ambush? Assault through it. Far ambush? Get to cover.
+Good ambushes have a way out for the attackers.
+Spring your ambush only when the kill zone is full.
+Let the scouts pass. The main force is what you want.
+Stay hidden until the signal. One early shot ruins it all.
+After an ambush, leave before the reinforcements arrive.
+Reinforcements always come faster than you hoped.
+Never attack without knowing where the enemy reserve is.
+Take the objective, then prepare for the counterattack.
+The counterattack comes when you start to relax.
+Taking ground is easy. Holding it is the hard part.
+Consolidate before you celebrate.
+Reorganize fast after every assault.
+Attack at the moment the enemy least expects it.
+Attack where they are weak, not where they are ready.
+Feint on one side, then strike on the other.
+Make them look left while you move right.
+Do not attack uphill unless you have no other choice.
+Keep the sun behind you when you attack.
+Attack out of the sun and they will fire half blind.
+Fog hides your approach and theirs too.
+Rain ruins sight, sound, and morale. Plan for all three.
+Snow shows every step. Plan your route with care.
+Cold kills slowly. Keep moving and keep dry.
+Wet clothes in the cold will finish you. Change them.
+Cold hands cannot work a bolt. Protect them.
+Winter fighting is a battle against the weather first.
+In the desert, travel at night and rest in the shade.
+Heat takes soldiers faster than bullets do. Drink often.
+Sand gets in everything. Keep your weapon covered.
+Moving in full sun drains you before the fight begins.
+In the jungle, you hear the enemy before you see them.
+Dense forest makes short fights. Keep your weapon up.
+Trees stop some bullets, but they splinter under shelling.
+Stay out of forest clearings. They are watched.
+Swamps slow you down and hide nothing from the air.
+Rivers are obstacles. Scout both banks before you cross.
+Cross water at the narrowest point you can secure.
+Keep your weapon and ammo dry when you ford a river.
+Mountains favor those who hold the passes.
+The higher you climb, the more your breath will cost you.
+Hills hide what is behind them. Check before you top them.
+Crawl the last few meters before any crest.
+Look around cover, not over it.
+Fire from the side of your cover whenever you can.
+Stay back from windows. Fire from deep inside the room.
+Do not rest your rifle on a window sill.
+Rooftops are great until the mortars find them.
+Basements protect you from shells, but not from grenades.
+Rubble makes the best cover in a ruined city.
+Cities swallow armies. Move slowly and clear as you go.
+Move along walls, but do not hug them.
+Bullets follow walls. Keep a little distance from them.
+Avoid the middle of the street at all costs.
+Go through walls if the doors are being watched.
+Alleys are perfect traps. Check above you as you enter.
+Always check above you in a city.
+Stairwells are death traps. Clear them with care.
+Clear from the top down if you can get there.
+Mark the rooms you have cleared.
+A cleared room stays clear only if someone holds it.
+Do not silhouette yourself in a doorway.
+Sewers and tunnels go both ways. Guard them.
+Tunnels magnify sound. Keep your voice down.
+Never go into a tunnel alone.
+Dig deeper whenever you have the time.
+Overhead cover saves you from airbursts.
+A foxhole with a friend is better than a castle alone.
+Camouflage your position before you get comfortable.
+Hide your spoil. Fresh dirt draws the eye from far away.
+Fresh-cut branches wilt. Replace your camouflage daily.
+Vehicle tracks can lead the enemy right to you.
+Keep your camp small and your trash buried.
+Trash tells the enemy how many you are.
+Food smells carry. Eat cold if the enemy is close.
+Cigarette smoke travels farther than you think.
+A lit cigarette can be seen a long way off at night.
+Silence your gear, then jump to test it.
+Never whisper when hand signals will do.
+Learn hand signals until they need no thought.
+Use the night to move and the day to hide.
+Let your eyes adjust to the dark before you move.
+A bright light ruins your night vision for minutes.
+Close one eye near a flare and save your night vision.
+Freeze when a flare goes up. Movement draws the eye.
+In the dark, look beside a shape to see it better.
+Sound and smell matter more once the sun goes down.
+Night attacks need simple plans.
+Everything takes longer in the dark. Plan for it.
+Set a password before dark and change it often.
+A wrong answer to a challenge can be your last.
+Know the challenge and the password before you go out.
+Friendly fire is still fire. Know where your people are.
+Tell someone before you leave the perimeter.
+Tell the line when your patrol is coming back in.
+Patrols that return by the same path get ambushed.
+Give every patrol a clear task and a set return time.
+Halt the patrol often. Stop, look, listen, and smell.
+Check your rear on patrol as often as your front.
+The last soldier in line should walk backward now and then.
+Stop short of your objective and scout it first.
+A patrol without a plan is just a target walking.
+Take a prisoner if you can. Information saves lives.
+Search the fallen for maps and orders.
+Enemy maps and orders can be worth more than ammo.
+Never talk about the mission where others can hear it.
+Loose talk gets soldiers killed.
+What you do not know cannot be taken from you.
+Burn your notes before the enemy reaches them.
+Never carry the plan on paper if you can remember it.
+Assume the enemy is listening to your radio.
+Change your radio position after a long transmission.
+Long transmissions draw shells.
+Use code words on the radio. Plain talk helps the enemy.
+Keep spare batteries warm and dry.
+A dead radio makes a lonely squad.
+No contact by the set time? Follow the backup plan.
+When the radio fails, use runners and signals.
+Write down your grid before you call for fire.
+Check your position twice before you call for artillery.
+Danger close means exactly that. Get your head down.
+Know how long the shells take to land.
+Walk the fire onto the target. Do not guess the first round.
+Incoming! Get flat first and ask questions later.
+You never hear the shell that has your name on it.
+Shelling often starts just before an attack. Be ready.
+When the shelling lifts, get up. The infantry is coming.
+Do not bunch up in a fresh shell crater.
+Old craters make quick cover when you have nothing else.
+Mortars find what stays still. Move after the first rounds.
+Listen for the thump of a mortar. Seconds matter.
+Leave the area once the enemy has your range.
+Dig before you rest if artillery is near.
+Aircraft see what you cannot. Hide from the sky too.
+Vehicles and fires are easy to spot from above.
+Do not look up at aircraft. Faces shine from high above.
+Never fire at aircraft unless you are ordered to.
+If you hear a drone, assume someone is watching you.
+Stay under trees when anything is flying overhead.
+Vehicles make noise. Everyone within a mile knows you came.
+A vehicle gets you there fast and draws every eye on the way.
+Do not ride in a convoy without a plan for the ambush.
+Keep your distance between vehicles in a convoy.
+Stopped convoys are targets. Keep rolling if you can.
+Never stop at the first sign of trouble on a road.
+Check culverts and road shoulders for explosives.
+Drive in the tracks of the vehicle ahead on bad roads.
+Park under cover and point the vehicle toward your way out.
+Keep the fuel tank full. You may leave in a hurry.
+Fuel wins as many wars as bullets do.
+Check your vehicle every morning. Breakdowns get you killed.
+A burning vehicle draws fire. Get out and get clear.
+Infantry protects tanks. Tanks protect infantry.
+Stay away from the front of a tank. Stay in its blind spots.
+Tanks are blind up close. Use that to your advantage.
+Do not walk right beside a tank. It draws fire.
+Armor needs room. Lure it into the narrow streets.
+Hit armor from the side or the rear.
+After firing a launcher, move. The backblast gives you away.
+Check your backblast before you fire the launcher.
+Do not fire a launcher from a small closed room.
+Save your rockets for targets that deserve them.
+Learn to use enemy weapons. You may need them one day.
+Know how to use every weapon in your squad.
+Everyone in the squad should know basic first aid.
+Stop the bleeding first. Everything else can wait.
+A tourniquet is only useful if you can reach it.
+Practice applying a tourniquet with one hand.
+Note the time when you apply a tourniquet.
+Keep the wounded warm. Shock kills too.
+Talk to the wounded. Keep them awake and calm.
+Keep your medic alive. Everyone depends on them.
+Win the firefight first. It is the best medicine.
+Clean small wounds before they become big ones.
+Infection takes as many soldiers as the enemy does.
+Boil your water when you can. Sickness can end a mission.
+Do not drink from still water if you have any choice.
+Wash when you can. Clean soldiers stay in the fight.
+Change your socks whenever you get the chance.
+Sleep whenever it is safe. Tired minds miss things.
+Lack of sleep is as dangerous as enemy fire.
+Eat when there is food. You may not get another chance.
+Ration your food from the first day, not the last.
+Know how long your supplies will last.
+An army marches on its stomach.
+Amateurs talk about tactics. Professionals talk about supply.
+Keep track of your water as closely as your ammo.
+Waterproof the things that must stay dry.
+Keep your essential gear on you, even when you sleep.
+Sleep with your boots on when the enemy is close.
+Keep your weapon within reach at all times.
+Stand to at dawn. That is when attacks come.
+Be ready before the sun comes up.
+Prepare today for the attack that comes tomorrow.
+Rehearse the plan until every soldier can explain it.
+Keep the plan simple. Simple plans survive.
+A good plan today beats a perfect plan tomorrow.
+Always have a backup plan, then one more.
+Hope is not a strategy.
+Assume the enemy has a plan too.
+Think like your enemy before you make your move.
+Ask where you would hide if you were them.
+Assume you have been seen, and act accordingly.
+Never underestimate an enemy with nothing to lose.
+Do not leave a cornered enemy without a way out.
+Check the fallen carefully. Some are still dangerous.
+Winning a fight does not mean the danger has passed.
+The end of a fight is when people get careless.
+Stay alert on the way home. Most mistakes happen there.
+Complacency kills. Treat every patrol like the first one.
+Today's quiet sector is tomorrow's front line.
+Leaders go first and eat last.
+Lead from where you can see the fight.
+Give clear orders. Confusion costs lives.
+A bad decision now can beat a perfect one too late.
+If your leader is down, take charge.
+Never give an order you would not follow yourself.
+Look after your soldiers and they will look after you.
+Listen to the veterans. They survived for a reason.
+Teach the new ones what kept you alive.
+Do not get attached to one plan. Adapt or die.
+Rumors spread faster than orders. Check the facts.
+Stick together when morale is low.
+Keep your squad's spirits up. Morale is a weapon.
+A joke in the trench can be worth a box of ammo.
+Write home when you can. It reminds you why you fight.
+You fight for the soldier next to you.
+Carry your share of the load, and then some.
+Courage spreads. So does fear. Choose which you carry.
+Keep your head when everyone around you has lost theirs.
+Anger makes for bad aim. Stay cold.
+Revenge is a poor reason to break cover.
+Never charge in to be a hero. Heroes get buried.
+Do your job. That is what wins the war.
+Small mistakes add up to big funerals.
+The little things keep you alive.
+Stay humble. The battlefield teaches everyone.
+Sweat now, or bleed later.
+Hard days make hard soldiers.
+Pain is temporary. Keep moving.
+When you think you are finished, take one more step.
+Endure today so you can fight tomorrow.
+Every war ends. Make sure you are there to see it.
+One more day. One more mile. One more mission.
+Duty first, always.
+Never give up the fight.
