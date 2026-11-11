@@ -1,0 +1,51 @@
+name: Update manifest
+
+# Runs by itself when you save a Release (add/remove mod files, then "Update release"),
+# on a timer as a safety net, or by hand from the Actions tab ("Run workflow").
+on:
+  release:
+    types: [published, edited, created, deleted]
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+  push:
+    branches: [main]
+    paths:
+      - extra-mods.json
+      - original-names.json
+      - tools/build-manifest.mjs
+      - .github/workflows/manifest.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: manifest
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Rebuild manifest.json from Releases
+        run: node tools/build-manifest.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Save if changed
+        run: |
+          if git diff --quiet -- manifest.json; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "MOVEXTSync bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manifest.json
+          git commit -m "Update manifest.json from Releases"
+          git push
