@@ -111,6 +111,17 @@ function buildManifest(current, extra, names, releases, now, changelogLines = nu
   unique.sort((x, y) => (x._sort < y._sort ? -1 : x._sort > y._sort ? 1 : 0));
   const outMods = unique.map(({ _sort, ...m }) => m);
 
+  // Mods that were in the pack before but are not any more (replaced by a newer version, or taken out).
+  // MOVEXTSync 1.5.0+ removes exactly these files from players' PCs; mods players added themselves were
+  // never in the pack, so they are never listed here.
+  const nowShas = new Set(outMods.map(m => m.sha256.toLowerCase()));
+  const retired = new Set((current.retiredMods || []).map(s => s.toLowerCase()));
+  for (const m of current.mods || []) {
+    if (m.sha256 && !nowShas.has(m.sha256.toLowerCase())) retired.add(m.sha256.toLowerCase());
+  }
+  for (const s of nowShas) retired.delete(s); // put back into the pack -> not retired any more
+  const retiredList = [...retired].sort();
+
   const oldKey = JSON.stringify((current.mods || []).map(m => m.sha256 + m.fileName).sort());
   const newKey = JSON.stringify(outMods.map(m => m.sha256 + m.fileName).sort());
   const changed = oldKey !== newKey;
@@ -132,6 +143,7 @@ function buildManifest(current, extra, names, releases, now, changelogLines = nu
   lines.push(`  "allowedExtras": ${JSON.stringify(current.allowedExtras || [])},`);
   lines.push(`  "bannedModIds": ${JSON.stringify(current.bannedModIds || [])},`);
   lines.push(`  "bannedFiles": ${JSON.stringify(current.bannedFiles || [])},`);
+  if (retiredList.length) lines.push(`  "retiredMods": ${JSON.stringify(retiredList)},`);
   lines.push(`  "mods": [`);
   outMods.forEach((m, i) => lines.push("    " + jsonLine(m) + (i + 1 < outMods.length ? "," : "")));
   lines.push(`  ],`);
@@ -204,6 +216,13 @@ async function main() {
 
   const r = buildManifest(current, extra, names, releases, new Date(), changelog, files);
   for (const p of [...fileProblems, ...r.problems]) console.log(`::warning::${p}`);
+  // Safety: a mod list that suddenly shrinks by more than half is almost always a mistake (e.g. the
+  // Release was deleted). Writing it would remove those mods from every player, so stop instead.
+  const before = (current.mods || []).length;
+  if (before >= 10 && r.count < before / 2) {
+    throw new Error(`mod list would shrink from ${before} to ${r.count} - not saving. ` +
+      `If this is really intended, remove the mods in smaller steps.`);
+  }
   const old = existsSync("manifest.json") ? readFileSync("manifest.json", "utf8") : "";
   if (old === r.text) {
     console.log(`manifest.json unchanged (${r.count} mods, selfUpdate ${r.self})`);
