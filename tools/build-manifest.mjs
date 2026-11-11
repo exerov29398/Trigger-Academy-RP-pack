@@ -2,7 +2,8 @@
 // Rebuilds the "mods" list of manifest.json from every .jar in this repo's published Releases,
 // keeps your own settings (bans, removeUnlisted, files...), and points selfUpdate at the newest
 // movextsync-*.jar. Made by MOVEXT.
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, readdirSync, statSync } from "node:fs";
+import { createHash } from "node:crypto";
 
 // ===== core (pure, no I/O) =====
 const ALT_SELF = /^movextsync-(\d+(?:\.\d+)*)\.jar$/i;
@@ -35,6 +36,31 @@ function compareVersions(a, b) {
   return 0;
 }
 
+/**
+ * Turns files found in the repo's pack/ and pack-once/ folders into manifest "files" entries.
+ * @param found   [{ folder: "pack"|"pack-once", rel: "config/x.toml", sha256, size }]
+ * @param current parsed current manifest (its file URLs are reused while the content is unchanged,
+ *                so the manifest does not change on every run)
+ * @param ownRaw  "https://raw.githubusercontent.com/<owner>/<repo>/" - entries pointing elsewhere are kept as-is
+ * @param rawBase ownRaw + "<commit sha>/" - new files are linked at this exact commit (never stale)
+ */
+function buildFileEntries(found, current, ownRaw, rawBase, problems) {
+  const prev = new Map((current.files || []).map(f => [f.path, f]));
+  const byPath = new Map();
+  for (const f of found) {
+    if (/^mods\/[^/]*\.jar$/i.test(f.rel)) { problems.push(`${f.folder}/${f.rel}: put mods into the Release, not here (skipped)`); continue; }
+    if (byPath.has(f.rel)) { problems.push(`${f.rel} is in both pack/ and pack-once/ - using pack/`); if (f.folder !== "pack") continue; }
+    const old = prev.get(f.rel);
+    const url = old && old.sha256 === f.sha256 && old.url.startsWith(ownRaw)
+      ? old.url
+      : rawBase + (f.folder + "/" + f.rel).split("/").map(encodeURIComponent).join("/");
+    byPath.set(f.rel, { path: f.rel, url, sha256: f.sha256, size: f.size, replace: f.folder === "pack" });
+  }
+  const generated = [...byPath.values()].sort((a, b) => (a.path < b.path ? -1 : a.path > b.path ? 1 : 0));
+  const manual = (current.files || []).filter(f => !String(f.url).startsWith(ownRaw));
+  return [...generated, ...manual];
+}
+
 function jsonLine(o) {
   return "{" + Object.entries(o).map(([k, v]) => JSON.stringify(k) + ": " + JSON.stringify(v)).join(", ") + "}";
 }
@@ -46,8 +72,9 @@ function jsonLine(o) {
  * @param releases GitHub API releases array
  * @param now      Date, used for packVersion when the mod list changes
  * @param changelogLines lines from changelog.txt, or null to keep the manifest's current changelog
+ * @param fileEntries    "files" entries (see buildFileEntries), or null to keep the manifest's current files
  */
-function buildManifest(current, extra, names, releases, now, changelogLines = null) {
+function buildManifest(current, extra, names, releases, now, changelogLines = null, fileEntries = null) {
   const problems = [];
   const mods = [];
   let self = null;
@@ -108,7 +135,7 @@ function buildManifest(current, extra, names, releases, now, changelogLines = nu
   lines.push(`  "mods": [`);
   outMods.forEach((m, i) => lines.push("    " + jsonLine(m) + (i + 1 < outMods.length ? "," : "")));
   lines.push(`  ],`);
-  const files = current.files || [];
+  const files = fileEntries ?? current.files ?? [];
   if (files.length === 0) lines.push(`  "files": []`);
   else {
     lines.push(`  "files": [`);
@@ -156,8 +183,27 @@ async function main() {
     ? readFileSync("changelog.txt", "utf8").split(/\r?\n/).map(s => s.trim()).filter(s => s && !s.startsWith("#"))
     : null;
 
-  const r = buildManifest(current, extra, names, releases, new Date(), changelog);
-  for (const p of r.problems) console.log(`::warning::${p}`);
+  // pack/      -> always kept up to date on players' PCs (e.g. config files the server needs)
+  // pack-once/ -> only given when the player does not have the file yet (e.g. options.txt, keybinds)
+  const walk = (dir, base = dir) => readdirSync(dir).flatMap(name => {
+    const p = `${dir}/${name}`;
+    return statSync(p).isDirectory() ? walk(p, base) : [p.slice(base.length + 1)];
+  });
+  const found = [];
+  for (const folder of ["pack", "pack-once"]) {
+    if (!existsSync(folder)) continue;
+    for (const rel of walk(folder)) {
+      if (/(^|\/)\.gitkeep$/.test(rel)) continue;
+      const buf = readFileSync(`${folder}/${rel}`);
+      found.push({ folder, rel, sha256: createHash("sha256").update(buf).digest("hex"), size: buf.length });
+    }
+  }
+  const ownRaw = `https://raw.githubusercontent.com/${repo}/`;
+  const fileProblems = [];
+  const files = buildFileEntries(found, current, ownRaw, ownRaw + process.env.GITHUB_SHA + "/", fileProblems);
+
+  const r = buildManifest(current, extra, names, releases, new Date(), changelog, files);
+  for (const p of [...fileProblems, ...r.problems]) console.log(`::warning::${p}`);
   const old = existsSync("manifest.json") ? readFileSync("manifest.json", "utf8") : "";
   if (old === r.text) {
     console.log(`manifest.json unchanged (${r.count} mods, selfUpdate ${r.self})`);
