@@ -1,13 +1,13 @@
 name: Update manifest
 
 # Runs by itself when you save a Release (add/remove mod files, then "Update release"),
-# on a timer as a safety net, or by hand from the Actions tab ("Run workflow").
+# every 5 minutes (so dropping files into a Release is enough), or by hand from the Actions tab ("Run workflow").
 on:
   release:
     types: [published, edited, created, deleted]
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/5 * * * *"
   push:
     branches: [main]
     paths:
