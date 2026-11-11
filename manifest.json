@@ -1,6 +1,7 @@
 {
   "packName": "Trigger Academy RP",
   "packVersion": "1.2",
+  "changelog": ["หน้าจออัปเดตใหม่ ธีม Trigger Academy (MOVEXTSync 1.3.0)"],
   "selfUpdate": {"fileName": "movextsync-1.2.0.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/movextsync-1.2.0.jar", "sha256": "db815e0ddab7e0668b33cfc5da4face0bdd9b0e3a876f33ea96016057bdfdd24", "size": 69903},
   "removeUnlisted": false,
   "allowedExtras": [],
