@@ -5,7 +5,7 @@
   "removeUnlisted": false,
   "allowedExtras": [],
   "bannedModIds": [],
-  "bannedFiles": [],
+  "bannedFiles": ["servernick*.jar"],
   "mods": [
     {"fileName": "[1.20.1] SecurityCraft v1.10.2.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/1.20.1.SecurityCraft.v1.10.2.1.jar", "sha256": "f7c637b291cccd2c4a4f94048a6d08a48065c0618fec03043d6f9e15af27948a", "size": 4995865},
     {"fileName": "acceleratedrendering-1.0.14-1.20.1-alpha.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/acceleratedrendering-1.0.14-1.20.1-alpha.jar", "sha256": "b53b41500e50da14d48e1751e022667b1c9fd36f8b8822e757891f9a669e0734", "size": 907019},
