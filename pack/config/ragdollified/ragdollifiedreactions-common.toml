@@ -1,0 +1,99 @@
+[general]
+	#Master switch for automatic reactions. The keybind ragdoll has its own switch below.
+	enabled = true
+	#Players may ragdoll themselves with the keybind (H by default).
+	allowManualRagdoll = true
+	#Automatic reactions also affect creative-mode players.
+	affectCreative = false
+	#Divides every trigger threshold: 2.0 reacts to half the force, 0.5 needs twice as much.
+	#Range: 0.1 ~ 10.0
+	sensitivity = 1.0
+	#Fastest a body may be launched, in blocks per second.
+	#Range: 0.0 ~ 200.0
+	maxLaunchSpeed = 30.0
+	#Ticks after getting up before another automatic reaction can happen.
+	#Range: 0 ~ 1200
+	cooldownTicks = 200
+
+[triggers]
+	#Slamming into a wall or ceiling, on foot, gliding, or in a vehicle you are driving.
+	impacts = true
+	#Speed lost in the impact, in blocks per second, before it knocks you down.
+	#Range: 0.5 ~ 200.0
+	impactThreshold = 18.0
+	#Hitting the ground hard at the end of a fall.
+	landings = true
+	#Fall speed at impact, in blocks per second. 24 is roughly a twelve-block drop.
+	#Range: 0.5 ~ 200.0
+	landingThreshold = 24.0
+	#A sudden shove from outside: rams, knockback weapons, launchers, being run into.
+	knockback = false
+	#Velocity change, in blocks per second, before a shove knocks you down. A plain mob hit is about 11.
+	#Range: 0.5 ~ 200.0
+	knockbackThreshold = 30.0
+	#A raised shield keeps you on your feet against shoves.
+	shieldsBlockKnockback = true
+	#Being caught in a blast.
+	explosions = true
+	#Blast knockback, in blocks per second, needed to knock you down. A creeper three blocks away is about 10.
+	#Range: 0.0 ~ 200.0
+	explosionMinStrength = 6.0
+	#How much harder than vanilla knockback a blast throws the body.
+	#Range: 0.0 ~ 20.0
+	explosionLaunchScale = 1.5
+	#A shield raised toward the blast keeps you on your feet.
+	shieldsBlockExplosions = true
+	#A piston head, or a block it pushes, hitting you.
+	pistons = false
+	#How hard a piston shoves a standing player, in blocks per second. Low, so it tips you over rather than throwing you.
+	#Range: 0.0 ~ 40.0
+	pistonLaunchSpeed = 6.0
+	#A sticky piston that hits you holds on to the body, pulling it back as it retracts.
+	stickyPistonsGrab = false
+	#A blow from something big: an iron golem's uppercut, a warden's swing or sonic boom, the ender dragon's wings, a ravager, a hoglin's toss.
+	#These land too softly for the knockback trigger to feel, so the server knocks you down itself. A raised shield that blocks the hit keeps you up.
+	heavyHits = false
+	#Mobs whose every landed hit counts as heavy, by entity id.
+	heavyHitters = ["minecraft:iron_golem", "minecraft:warden", "minecraft:ender_dragon", "minecraft:ravager", "minecraft:hoglin", "minecraft:zoglin"]
+	#Any other hit from a mob, player or projectile that takes at least this much health, after armor, also knocks you down.
+	#Divided by sensitivity like the other thresholds. 0 turns this off.
+	#Range: 0.0 ~ 1000.0
+	heavyHitMinDamage = 0.0
+	#How much harder than vanilla knockback a heavy hit throws the body sideways. The upward part stays as vanilla has it.
+	#Range: 0.0 ~ 20.0
+	heavyHitLaunchScale = 1.5
+	#Being struck by lightning.
+	lightning = true
+	#An anvil, a falling stalactite or another falling block landing on you.
+	fallingBlocks = true
+	#An untamed horse, donkey, mule or llama throwing you off while you try to tame it.
+	buckedOff = true
+
+[mobs]
+	#Mobs leave a player alone while they lie limp after a reaction: anything targeting them gives up, and nothing new picks them until they are back on their feet.
+	mobsIgnoreDownedPlayers = true
+	#Mobs also leave alone a player who went limp with the keybind. Off by default, so playing dead can't shake off a chase at will.
+	mobsIgnoreManualRagdoll = false
+
+[damage]
+	#A ragdoll slamming sideways into a wall hurts, less than a fall at the same speed.
+	wallDamage = true
+	#Speed into the wall, in blocks per second, below which it does no damage.
+	#Range: 0.0 ~ 200.0
+	wallDamageMinSpeed = 10.0
+	#Damage per block per second above the minimum. At 0.25 a 24 block/s hit does 3.5, where landing from a fall that fast does about 9.
+	#Range: 0.0 ~ 10.0
+	wallDamagePerSpeed = 0.25
+
+[recovery]
+	#After an automatic reaction, stand back up once the body has come to rest.
+	autoGetUp = true
+	#Shortest an automatic reaction lasts before you can get up.
+	#Range: 0 ~ 1200
+	minRagdollTicks = 160
+	#Ticks the body must lie still before the automatic get-up.
+	#Range: 1 ~ 1200
+	stillTicksToGetUp = 60
+	#Longest an automatic reaction lasts. The keybind ragdoll has no limit.
+	#Range: 20 ~ 12000
+	maxRagdollTicks = 400

@@ -1,0 +1,50 @@
+#Render Settings
+[render]
+	#Distance in blocks beyond which ragdolls do not render.
+	#Range: 4.0 ~ 512.0
+	renderDistance = 96.0
+	#When you die, follow your own ragdoll with the camera.
+	enableDeathCamera = true
+	#Draw worn armor on ragdolls. Off leaves the bare body and costs nothing to draw.
+	renderArmor = true
+	#Draw GeckoLib animated armor on ragdolls. It is the most expensive armor to draw,
+	#and off it is left out rather than swapped for a plain one. Needs renderArmor on.
+	renderGeckolibArmor = true
+	#Draw Curios accessories on ragdolls, like backpacks and rings. Independent of renderArmor.
+	renderCurios = true
+	#Draw a player's cape on their ragdoll, hanging off the back. Left off when an elytra is worn.
+	renderCapes = true
+	#Fade a ragdoll out over the end of its lifetime instead of removing it at once.
+	fadeOutRagdolls = true
+	#How long a fading ragdoll takes to disappear, in ticks (20 is one second).
+	#Range: 1 ~ 200
+	fadeOutTicks = 40
+	#Distance in blocks within which GeckoLib animated armor renders on ragdolls.
+	#Lower improves performance. Should not exceed renderDistance.
+	#Range: 4.0 ~ 128.0
+	geckolibArmorRenderDistance = 40.0
+	#Distance in blocks within which vanilla armor renders on ragdolls.
+	#Range: 4.0 ~ 512.0
+	armorRenderDistance = 64.0
+	#Armor drawn on a ragdoll in place of modded armor whose texture can't be found.
+	#Leave empty to draw no armor there. Otherwise an armor material name: leather, chainmail,
+	#iron, gold, diamond, netherite, or modid:material for a modded one.
+	missingArmorFallback = ""
+
+#Physics Engine
+[physics]
+	#Physics engine for ragdolls: jolt (default, native and fast) or jbullet (pure Java, slower).
+	#Jolt falls back to jbullet automatically if it can't load. Applies on the next world load.
+	physicsEngine = "jolt"
+	#Extra worker threads Jolt may use for physics. 0 = pick automatically from CPU count.
+	#Ignored by jbullet.
+	#Range: 0 ~ 16
+	physicsSolverThreads = 0
+
+#Debug Options
+[debug]
+	#Render debug boxes around ragdoll physics bodies.
+	debugRenderPhysics = false
+	#Periodically log ragdoll physics performance stats ([Ragdoll Perf]) to the client log.
+	#Useful for profiling; leave off for normal play.
+	logPhysicsPerf = false
