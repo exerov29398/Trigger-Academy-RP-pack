@@ -1,6 +1,6 @@
 {
   "packName": "Trigger Academy RP",
-  "packVersion": "1.2",
+  "packVersion": "2026.11.12-0105",
   "selfUpdate": {"fileName": "movextsync-1.5.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/movextsync-1.5.1.jar", "sha256": "4f1347e7a07dded235ce44a1afd3c20301a48a2b338069730a36b2fe98184c9e", "size": 176767},
   "removeUnlisted": false,
   "allowedExtras": [],
@@ -120,6 +120,7 @@
     {"fileName": "modernfix-forge-5.27.91+mc1.20.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/modernfix-forge-5.27.91%2Bmc1.20.1.jar", "sha256": "b42fe87fd5ffa46f7db56c6cee01b08dea362baf4cc56a70db40d928773b5000", "size": 1012942},
     {"fileName": "moonlight-1.20-2.16.34-forge.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/moonlight-1.20-2.16.34-forge.jar", "sha256": "007c05ae799417ca7aa26669c5d97be9dface5b6fc27aca4ca8031cafe4ddd6e", "size": 1419416},
     {"fileName": "MouseTweaks-forge-mc1.20.1-2.25.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/MouseTweaks-forge-mc1.20.1-2.25.1.jar", "sha256": "6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08", "size": 76237},
+    {"fileName": "movextname-1.0.0.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/movextname-1.0.0.jar", "sha256": "bfefc52e8290ab9e9f5ea72d64255d77233df3a29d0ff64355132da8629bf4cb", "size": 97932},
     {"fileName": "movextskin-0.5.0.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/movextskin-0.5.0.jar", "sha256": "7f6d7b6d4fd29329d0e4814e79423645431566e830c2528423b5f113cb607f71", "size": 578217},
     {"fileName": "neruina-3.3.3+1.20.1-forge.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/neruina-3.3.3%2B1.20.1-forge.jar", "sha256": "5abcc10f8246e7dbd46c8bb235b67fe842185f7f6e6480596465aa4a12586036", "size": 1486095},
     {"fileName": "nightlights-1.20.1-1.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/nightlights-1.20.1-1.1.jar", "sha256": "714775d9b8aee7fa16df51e1b6f1e95cc3cfe6986eb19648fbbee7fe9ff6cbdb", "size": 377881},
