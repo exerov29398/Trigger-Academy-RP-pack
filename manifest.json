@@ -1,12 +1,12 @@
 {
   "packName": "Trigger Academy RP",
-  "packVersion": "2026.11.12-2059",
+  "packVersion": "2026.11.12-2127",
   "selfUpdate": {"fileName": "movextsync-1.5.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/movextsync-1.5.1.jar", "sha256": "4f1347e7a07dded235ce44a1afd3c20301a48a2b338069730a36b2fe98184c9e", "size": 176767},
   "removeUnlisted": false,
   "allowedExtras": [],
   "bannedModIds": [],
   "bannedFiles": ["servernick*.jar"],
-  "retiredMods": ["beeb560232c8ee691ea446d53194358902eed8ed38d198515906ac724bdde1fb","ca49f72a199cc15524cead9129e0dbc9e73fc67d839c947e16803f500f694108","fc16a99ec83eafa49f82089f874d45ada633ec87da0fff56a9af886456da2cd6"],
+  "retiredMods": ["0e34bbddb45efc4a7b88b0c11af51ddb24999033f87063e322e93dc8d68dc25f","beeb560232c8ee691ea446d53194358902eed8ed38d198515906ac724bdde1fb","ca49f72a199cc15524cead9129e0dbc9e73fc67d839c947e16803f500f694108","fc16a99ec83eafa49f82089f874d45ada633ec87da0fff56a9af886456da2cd6"],
   "mods": [
     {"fileName": "[1.20.1] SecurityCraft v1.10.2.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/1.20.1.SecurityCraft.v1.10.2.1.jar", "sha256": "f7c637b291cccd2c4a4f94048a6d08a48065c0618fec03043d6f9e15af27948a", "size": 4995865},
     {"fileName": "acceleratedrendering-1.0.14-1.20.1-alpha.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/acceleratedrendering-1.0.14-1.20.1-alpha.jar", "sha256": "b53b41500e50da14d48e1751e022667b1c9fd36f8b8822e757891f9a669e0734", "size": 907019},
@@ -87,7 +87,6 @@
     {"fileName": "inv_view-4.2.0-forge+1.20.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/inv_view-4.2.0-forge%2B1.20.1.jar", "sha256": "725885dcad72086cc0222dc6a6ed56ccd7089cc99699271f1ca9c9a1fc647ceb", "size": 50608},
     {"fileName": "InventoryFree-1.20.1-3.2.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/InventoryFree-1.20.1-3.2.1.jar", "sha256": "4ab217f41adca3ec7ff7ffe9fdd3464da702bb62964e441808667149b823a99d", "size": 52694},
     {"fileName": "justzoom_forge_3.1.0_MC_1.20.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/justzoom_forge_3.1.0_MC_1.20.1.jar", "sha256": "2ff10338b7d706c379b40040265b15c7c5a530a42df4fadc5e7e5d28ffabca26", "size": 355850},
-    {"fileName": "kaleidoscope_immersiveEating-forge1.20.1-1.5.3.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/kaleidoscope_immersiveEating-forge1.20.1-1.5.3.jar", "sha256": "0e34bbddb45efc4a7b88b0c11af51ddb24999033f87063e322e93dc8d68dc25f", "size": 2735357},
     {"fileName": "kaleidoscopecookery-1.5.1-forge+mc1.20.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/kaleidoscopecookery-1.5.1-forge%2Bmc1.20.1.jar", "sha256": "5150421f584fa68590f1205d1037615b7cda54fa0c2dda3df1e9aa6d3902e605", "size": 3597135},
     {"fileName": "kaleidoscopetavern-1.2.0-forge+mc1.20.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/kaleidoscopetavern-1.2.0-forge%2Bmc1.20.1.jar", "sha256": "eea7862d767b5457f5cf17446053e58a68c883f96b1e13d7304bd5e7ef2cd803", "size": 1749797},
     {"fileName": "Kiwi-1.20.1-Forge-11.10.3.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/Kiwi-1.20.1-Forge-11.10.3.jar", "sha256": "803753d53e22124713e66c01559eb0a502e0ccba996ce7e89a9169e48a2660e2", "size": 1677733},
