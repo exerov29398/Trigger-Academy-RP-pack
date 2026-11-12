@@ -1,6 +1,6 @@
 {
   "packName": "Trigger Academy RP",
-  "packVersion": "2026.11.12-0251",
+  "packVersion": "2026.11.12-0301",
   "selfUpdate": {"fileName": "movextsync-1.5.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/movextsync-1.5.1.jar", "sha256": "4f1347e7a07dded235ce44a1afd3c20301a48a2b338069730a36b2fe98184c9e", "size": 176767},
   "removeUnlisted": false,
   "allowedExtras": [],
@@ -187,7 +187,8 @@
     {"fileName": "worldedit-mod-7.2.15.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/worldedit-mod-7.2.15.jar", "sha256": "17db6b3e94f52d25426684663e1e1846823cbb7907f1c365ac329e5bc7bfaf2c", "size": 5825402},
     {"fileName": "xercapaint-1.20.1-2.0.0.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/xercapaint-1.20.1-2.0.0.jar", "sha256": "7f107dc517bbc9f859f311624c90897dfd8ea493d10bf12a7b7e57a9aa8d77a7", "size": 431716},
     {"fileName": "yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/yet_another_config_lib_v3-3.6.6%2B1.20.1-forge.jar", "sha256": "bd05da3d9df29b914165583f1c6dfd918a138996447ff32c0418329824027a8f", "size": 1105891},
-    {"fileName": "yuushya-1.20.1-forge-2.3.0.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/yuushya-1.20.1-forge-2.3.0.jar", "sha256": "2c9585c2433958fd173f9a658e08dfc0dbbe5322fdeee3b8e0510222a159ecf1", "size": 28166084}
+    {"fileName": "yuushya-1.20.1-forge-2.3.0.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/yuushya-1.20.1-forge-2.3.0.jar", "sha256": "2c9585c2433958fd173f9a658e08dfc0dbbe5322fdeee3b8e0510222a159ecf1", "size": 28166084},
+    {"fileName": "zarith-forge-1.20.1-0.2.0.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/zarith-forge-1.20.1-0.2.0.jar", "sha256": "02b672e064a6d93b4fab241cb4f1cd4314e3f4bb6fdd3e3b13d6c611aa85a443", "size": 9159157}
   ],
   "files": [
     {"path": "config/acceleratedrendering-client.toml", "url": "https://raw.githubusercontent.com/exerov29398/Trigger-Academy-RP-pack/753d21a0df6d1974776653256cdf4b3f55ea57ca/pack/config/acceleratedrendering-client.toml", "sha256": "7978d1e6a970a4a9495ffe34157b9843d6c01e188e027ae3d3041070b41ce548", "size": 29557, "replace": true},
