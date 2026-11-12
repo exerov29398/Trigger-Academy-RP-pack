@@ -1,0 +1,147 @@
+
+[ammo_check]
+	#Enable hold-reload ammo check. Short reload taps are forwarded to TaCZ normally.
+	#是否启用长按换弹键查弹。短按换弹会正常交给 TaCZ。默认开启。
+	enableHoldReloadAmmoCheck = false
+	#Hold time in seconds before reload becomes ammo check.
+	#长按换弹键触发查弹所需时间，单位秒。
+	#Range: 0.1 ~ 3.0
+	holdTriggerSeconds = 0.4
+	#Fallback ammo check animation duration in seconds. Per-gun ammo_check preset length is used when available.
+	#查弹动画兜底持续时间，单位秒。存在专属 ammo_check 动画时会优先使用动画自身长度。
+	#Range: 0.5 ~ 10.0
+	animationDurationSeconds = 2.55
+	#After a normal reload tap is forwarded to TaCZ, ammo check cannot be triggered for this many seconds.
+	#短按换弹触发 TaCZ 换弹后，多少秒内禁止触发查弹。默认 2 秒。
+	#Range: 0.0 ~ 10.0
+	reloadStartAmmoCheckBlockSeconds = 2.0
+	#Legacy bar setting retained for config compatibility. Numeric ammo colors use fixed 20% / 80% thresholds.
+	#旧竖条选项，仅为配置兼容保留。数字弹量固定使用 20% / 80% 颜色阈值。
+	#Range: 0.0 ~ 1.0
+	lowAmmoRedThreshold = 0.15
+	#Local ammo-check sound volume multiplier.
+	#查弹声音音量倍率。
+	#Range: 0.0 ~ 4.0
+	soundVolumeMultiplier = 1.7
+	#Horizontal offset for the magazine ammo count in GUI pixels. Positive moves right, negative moves left.
+	#弹匣数字弹量的水平偏移，单位为 GUI 像素。正数向右，负数向左。
+	#Range: -500 ~ 500
+	uiOffsetX = -100
+	#Vertical offset for the magazine ammo count in GUI pixels. Positive moves down, negative moves up.
+	#弹匣数字弹量的垂直偏移，单位为 GUI 像素。正数向下，负数向上。
+	#Range: -500 ~ 500
+	uiOffsetY = 0
+
+[high_ready_first_person]
+
+	#First-person position offsets while holding the High Ready key.
+	#高姿态持枪第一人称位置偏移。只影响按住高姿态持枪键时的手臂/枪械位置，不影响普通顶墙检测长度。
+	#RightOffset: positive moves weapon/arms to the player's right.
+	#VerticalOffset: negative moves up, positive moves down.
+	#BackOffset: positive moves backward toward the player.
+	[high_ready_first_person.long_gun]
+		#长枪高姿态向右偏移。
+		#单位：第一人称渲染偏移。建议每次调整 0.02 ~ 0.10。
+		#Range: -1.0 ~ 1.0
+		longRightOffset = 0.4
+		#长枪高姿态上下偏移。负数上移，正数下移。
+		#单位：第一人称渲染偏移。建议每次调整 0.02 ~ 0.10。
+		#Range: -1.0 ~ 1.0
+		longVerticalOffset = -0.4
+		#长枪高姿态前后偏移。正数向后靠近玩家。
+		#单位：第一人称渲染偏移。建议每次调整 0.02 ~ 0.10。
+		#Range: -1.0 ~ 1.0
+		longBackOffset = 0.0
+
+	[high_ready_first_person.pistol]
+		#手枪高姿态向右偏移。
+		#单位：第一人称渲染偏移。建议每次调整 0.02 ~ 0.10。
+		#Range: -1.0 ~ 1.0
+		pistolRightOffset = 0.5
+		#手枪高姿态上下偏移。负数上移，正数下移。
+		#单位：第一人称渲染偏移。建议每次调整 0.02 ~ 0.10。
+		#Range: -1.0 ~ 1.0
+		pistolVerticalOffset = 0.0
+		#手枪高姿态前后偏移。正数向后靠近玩家。
+		#单位：第一人称渲染偏移。建议每次调整 0.02 ~ 0.10。
+		#Range: -1.0 ~ 1.0
+		pistolBackOffset = 0.0
+
+[wall_obstruction_first_person]
+
+	#First-person position offsets for the muzzle wall-obstruction raise animation.
+	#第一人称枪口顶墙动画位置偏移。只影响枪口顶墙时的手臂/枪械抬起位置，不影响高姿态持枪和踢门举枪。
+	#RightOffset: positive moves weapon/arms to the player's right.
+	#VerticalOffset: negative moves up, positive moves down.
+	#BackOffset: positive moves backward toward the player.
+	[wall_obstruction_first_person.long_gun]
+		#长枪枪口顶墙向右偏移。
+		#单位：第一人称渲染偏移。建议每次调整 0.02 ~ 0.10。
+		#Range: -1.0 ~ 1.0
+		wallLongRightOffset = 0.1
+		#长枪枪口顶墙上下偏移。负数上移，正数下移。
+		#单位：第一人称渲染偏移。建议每次调整 0.02 ~ 0.10。
+		#Range: -1.0 ~ 1.0
+		wallLongVerticalOffset = -0.4
+		#长枪枪口顶墙前后偏移。正数向后靠近玩家。
+		#单位：第一人称渲染偏移。建议每次调整 0.02 ~ 0.10。
+		#Range: -1.0 ~ 1.0
+		wallLongBackOffset = 0.1
+
+	[wall_obstruction_first_person.pistol]
+		#手枪枪口顶墙向右偏移。
+		#单位：第一人称渲染偏移。建议每次调整 0.02 ~ 0.10。
+		#Range: -1.0 ~ 1.0
+		wallPistolRightOffset = 0.05
+		#手枪枪口顶墙上下偏移。负数上移，正数下移。
+		#单位：第一人称渲染偏移。建议每次调整 0.02 ~ 0.10。
+		#Range: -1.0 ~ 1.0
+		wallPistolVerticalOffset = -0.03
+		#手枪枪口顶墙前后偏移。正数向后靠近玩家。
+		#单位：第一人称渲染偏移。建议每次调整 0.02 ~ 0.10。
+		#Range: -1.0 ~ 1.0
+		wallPistolBackOffset = 0.05
+
+[player_movement]
+	#Base non-sprinting movement speed multiplier while holding a TaCZ gun in Survival/Adventure mode.
+	#普通持枪移动速度倍率。只在生存/冒险模式、非疾跑、手持 TaCZ 枪械时生效。默认 0.90 = 略微降低走路速度。
+	#Range: 0.05 ~ 2.0
+	walkSpeedMultiplier = 0.9
+	#Extra non-sprinting movement speed multiplier while High Ready is active.
+	#高姿态持枪移动速度倍率。会叠加在普通持枪移动速度上；疾跑会取消高姿态，疾跑速度不受影响。
+	#Range: 0.05 ~ 2.0
+	highReadySpeedMultiplier = 1.12
+
+[features]
+	#Enable TaCZ muzzle wall-obstruction raise mechanic. Shooting is blocked while the muzzle is obstructed.
+	#枪口顶墙机制是否开启。开启后枪口贴近墙体会抬枪，并阻止射击。默认开启。
+	enableTaczWallObstruction = true
+	#Enable the lower-left player status portrait HUD.
+	#左下角人物状态 HUD 是否显示。关闭后不再渲染左下角人物图片。默认关闭。
+	enablePlayerStatusHud = false
+	#隐藏原版生存 HUD；默认关闭。
+	hideVanillaHud = false
+	#Replace TaCZ hotbar gun display with the front lower-abdomen sling display for slot 1 long guns.
+	#接管 TaCZ 快捷栏枪械显示。快捷栏第一格中的非手枪会显示在玩家前方下腹部。默认开启。
+	enableFrontSlingGun = true
+	#Enable synchronized third-person holster/draw animations when switching items.
+	#第三人称切枪动画是否开启。收枪和举枪各 0.3 秒。默认开启。
+	enableThirdPersonWeaponSwitchAnimation = true
+	#Enable direction-aware TaCZ lower-body movement animations for forward, backward and strafing movement.
+	#更好的 TaCZ 持枪腿部动作。根据实际移动方向区分八个站立移动方向；下蹲保持 TaCZ 原版动作。默认开启。
+	enableDirectionalLegAnimations = true
+	#Enable tactical TaCZ gun-running animations with diagonal running and interruptible braking inertia.
+	#真实 TaCZ 持枪跑步动作。包含前/左前/右前跑步、可中断刹停和第三人称身体倾斜。默认开启。
+	enableGunRunAnimations = true
+	#Enable prone transitions, crawling and stationary turning animations.
+	#启用趴下、起身、爬行和静止转身动画；空手与持枪均可使用。
+	enableTacticalProneAnimations = true
+	#Blend time, in client ticks, when entering/leaving the stationary prone rotation overlay.
+	#趴下静止旋转姿势的平滑过渡 tick 数。尤其用于旋转姿势中开始移动时，避免模型瞬间跳回 TaCZ 爬行动作。默认 6 tick（约 0.30 秒）。
+	#Range: 1 ~ 30
+	proneRotationSmoothingTicks = 6
+	#Frame-rate-independent visual follow smoothing for the third-person prone rotation pose, in milliseconds. 0 disables it.
+	#趴下静止旋转姿势跟随视角时的第三人称视觉平滑时间（毫秒）。只平滑模型，不影响玩家实际视角/瞄准。默认 40 ms；0 为关闭。
+	#Range: 0 ~ 150
+	proneRotationFollowSmoothingMs = 40
+
