@@ -1,12 +1,12 @@
 {
   "packName": "Trigger Academy RP",
-  "packVersion": "2026.11.13-1533",
+  "packVersion": "2026.11.13-1707",
   "selfUpdate": {"fileName": "movextsync-1.5.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/movextsync-1.5.1.jar", "sha256": "4f1347e7a07dded235ce44a1afd3c20301a48a2b338069730a36b2fe98184c9e", "size": 176767},
   "removeUnlisted": false,
   "allowedExtras": [],
   "bannedModIds": [],
   "bannedFiles": ["servernick*.jar"],
-  "retiredMods": ["0e34bbddb45efc4a7b88b0c11af51ddb24999033f87063e322e93dc8d68dc25f","685292d2d6723fe2f77edcad7cc77ad6769a3a74d91001341b645f79cbd90f13","6eece0df9c927bddee3bd373fe90a2bbcba7157e9408ee0f94d13e04dc638395","7bc5b1f126ead087742f310ffd8773c5a95bc9ffdd168e29c02ce149a8d24b33","8986038032ba2895ee0f5084e8915c25ccbc60690d5dd176ca770e56abd13800","beeb560232c8ee691ea446d53194358902eed8ed38d198515906ac724bdde1fb","bf28ec2b31f3ffe18b7af0622d761775b99fab884882fcdb59c99ba77857c424","ca49f72a199cc15524cead9129e0dbc9e73fc67d839c947e16803f500f694108","dc94e8985dabc4a5ffe2fcc845335cd61d174440956f9626a1b80d644718aae2","fc16a99ec83eafa49f82089f874d45ada633ec87da0fff56a9af886456da2cd6"],
+  "retiredMods": ["0e34bbddb45efc4a7b88b0c11af51ddb24999033f87063e322e93dc8d68dc25f","685292d2d6723fe2f77edcad7cc77ad6769a3a74d91001341b645f79cbd90f13","6eece0df9c927bddee3bd373fe90a2bbcba7157e9408ee0f94d13e04dc638395","7bc5b1f126ead087742f310ffd8773c5a95bc9ffdd168e29c02ce149a8d24b33","8986038032ba2895ee0f5084e8915c25ccbc60690d5dd176ca770e56abd13800","8d2c84729e891c0f77620c7e38f11f36e5a423aa6d8c42e12839461ba30e9e7f","beeb560232c8ee691ea446d53194358902eed8ed38d198515906ac724bdde1fb","bf28ec2b31f3ffe18b7af0622d761775b99fab884882fcdb59c99ba77857c424","ca49f72a199cc15524cead9129e0dbc9e73fc67d839c947e16803f500f694108","dc94e8985dabc4a5ffe2fcc845335cd61d174440956f9626a1b80d644718aae2","fc16a99ec83eafa49f82089f874d45ada633ec87da0fff56a9af886456da2cd6"],
   "mods": [
     {"fileName": "[1.20.1] SecurityCraft v1.10.2.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/1.20.1.SecurityCraft.v1.10.2.1.jar", "sha256": "f7c637b291cccd2c4a4f94048a6d08a48065c0618fec03043d6f9e15af27948a", "size": 4995865},
     {"fileName": "acceleratedrendering-1.0.14-1.20.1-alpha.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/acceleratedrendering-1.0.14-1.20.1-alpha.jar", "sha256": "b53b41500e50da14d48e1751e022667b1c9fd36f8b8822e757891f9a669e0734", "size": 907019},
@@ -17,7 +17,7 @@
     {"fileName": "appleskin-forge-mc1.20.1-2.5.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/appleskin-forge-mc1.20.1-2.5.1.jar", "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426", "size": 47428},
     {"fileName": "architectury-9.2.14-forge.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/architectury-9.2.14-forge.jar", "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af", "size": 580602},
     {"fileName": "Arena Breakout Infinite Melee Pack-0.1.0.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/Arena.Breakout.Infinite.Melee.Pack-0.1.0.jar", "sha256": "f41122e68eab195db5b7d8e33bb5b71e86c8df456ff4dffb1325f28495bb23d2", "size": 6027969},
-    {"fileName": "ashvehicle-1.20.1-4.6-8.9.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/ashvehicle-1.20.1-4.6-8.9.jar", "sha256": "8d2c84729e891c0f77620c7e38f11f36e5a423aa6d8c42e12839461ba30e9e7f", "size": 18695193},
+    {"fileName": "ashvehicle-1.20.1-4.6-8.9-MOVEXT.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/ashvehicle-1.20.1-4.6-8.9-MOVEXT.jar", "sha256": "538fa04143d88f15d6b55c38dc1fdc2dc6a28db55c504977e0ee3c130b91794c", "size": 18697639},
     {"fileName": "backpacked-forge-1.20.1-3.0.3-rc.4.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/backpacked-forge-1.20.1-3.0.3-rc.4.jar", "sha256": "e57230269d320d1e714ef6af17f05d39111dfc3a190ec4a3ecb8924a3733f59e", "size": 1181801},
     {"fileName": "bendy-lib-forge-4.0.0.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/bendy-lib-forge-4.0.0.jar", "sha256": "dd4af8f403fc9b2f1250144c4b6cb89ea46114be50e6fa00a6c9162cfc870b2b", "size": 50745},
     {"fileName": "bettercombat-forge-1.9.0+1.20.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/bettercombat-forge-1.9.0%2B1.20.1.jar", "sha256": "49c69dccf2c641246b4e3deca81ebac21f0ee119e81fc713b838b8e33569eea1", "size": 1054339},
