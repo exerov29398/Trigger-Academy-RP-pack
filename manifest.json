@@ -1,6 +1,6 @@
 {
   "packName": "Trigger Academy RP",
-  "packVersion": "2026.11.13-1504",
+  "packVersion": "2026.11.13-1533",
   "selfUpdate": {"fileName": "movextsync-1.5.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/movextsync-1.5.1.jar", "sha256": "4f1347e7a07dded235ce44a1afd3c20301a48a2b338069730a36b2fe98184c9e", "size": 176767},
   "removeUnlisted": false,
   "allowedExtras": [],
@@ -123,6 +123,7 @@
     {"fileName": "modernfix-forge-5.27.91+mc1.20.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/modernfix-forge-5.27.91%2Bmc1.20.1.jar", "sha256": "b42fe87fd5ffa46f7db56c6cee01b08dea362baf4cc56a70db40d928773b5000", "size": 1012942},
     {"fileName": "moonlight-1.20-2.16.34-forge.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/moonlight-1.20-2.16.34-forge.jar", "sha256": "007c05ae799417ca7aa26669c5d97be9dface5b6fc27aca4ca8031cafe4ddd6e", "size": 1419416},
     {"fileName": "MouseTweaks-forge-mc1.20.1-2.25.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/MouseTweaks-forge-mc1.20.1-2.25.1.jar", "sha256": "6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08", "size": 76237},
+    {"fileName": "MOVEXT-sewv-thai-1.0.0.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/MOVEXT-sewv-thai-1.0.0.jar", "sha256": "29003c63cd0db8d621fc0d41c3dff629628a483c15594dcd72b402fab94a5451", "size": 51183},
     {"fileName": "movextname-1.0.0.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/movextname-1.0.0.jar", "sha256": "bfefc52e8290ab9e9f5ea72d64255d77233df3a29d0ff64355132da8629bf4cb", "size": 97932},
     {"fileName": "movextragdoll-1.0.1.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/movextragdoll-1.0.1.jar", "sha256": "ecab90f2145706bee4537cc9fd11e04de83ff3115a7248a07c03fef8de8c9a99", "size": 13264},
     {"fileName": "movextskin-0.5.0.jar", "url": "https://github.com/exerov29398/Trigger-Academy-RP-pack/releases/download/v1/movextskin-0.5.0.jar", "sha256": "7f6d7b6d4fd29329d0e4814e79423645431566e830c2528423b5f113cb607f71", "size": 578217},
